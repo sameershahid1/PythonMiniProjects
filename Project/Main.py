@@ -28,9 +28,13 @@ class Hosptal:
         Buttonframe=Frame(self.root,bd=20,relief=RIDGE)
         Buttonframe.place(x=0,y=530,width=1360,height=70)
 
-        #===================================Details=============================
+        #===================================Details======================================
         Detailsframe=Frame(self.root,bd=20,relief=RIDGE)
         Detailsframe.place(x=0,y=600,width=1360,height=100)
+        
+        #==================================Data Frame Left===============================
+        lblNameTable=Label(Dataframe,text="Names of Tablet",font=("times new roman",12,"bold"),padx=2,pady=6)
+        lblNameTable.grid(row=0,column=0)
 
 
 root=Tk()
